@@ -10,7 +10,7 @@ camera1 = "127.0.0.1"
 
 
 def StartStream():
-    xbmc.executebuiltin("PlayMedia(rtsp://demo:demo@ipvmdemo.dyndns.org:5541/onvif-media/media.amp?profile=profile_1_h264&sessiontimeout=60&streamtype=unicast)")
+    xbmc.executebuiltin("PlayMedia(~/PycharmProjects/XBMC-Camera/Test.strm)")
     dialog.notification('Race Cam', 'Starting', xbmcgui.NOTIFICATION_INFO, 5000)
     return
 
